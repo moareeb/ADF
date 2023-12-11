@@ -1,0 +1,31 @@
+{
+	"name": "KQL_INjest_Pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Azure Data Explorer Command1",
+				"type": "AzureDataExplorerCommand",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"command": ".ingest inline into table test <|\n4,Sam,23\n5,Dam,22\n6,Jam,43",
+					"commandTimeout": "00:20:00"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDataExplorer1",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2023-11-26T12:39:44Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

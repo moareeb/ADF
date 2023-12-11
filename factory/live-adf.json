@@ -1,0 +1,9 @@
+{
+	"name": "live-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "55a108ba-127e-45af-9d05-9c81a0f97854",
+		"tenantId": "40578103-c179-48cb-81c2-ffc431a6aa8f"
+	}
+}

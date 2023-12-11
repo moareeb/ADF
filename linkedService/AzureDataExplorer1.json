@@ -1,0 +1,15 @@
+{
+	"name": "AzureDataExplorer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataExplorer",
+		"typeProperties": {
+			"endpoint": "https://areebkustonew.eastus.kusto.windows.net",
+			"tenant": "40578103-c179-48cb-81c2-ffc431a6aa8f",
+			"servicePrincipalId": "a77894ea-41e3-41eb-80ab-fb6276003076",
+			"database": "areebtestdb",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDA1NEU0ODZGLTZDODctNEUyNi1COTAzLTgyNTk2OENDMUQwNV82Mjg2M2RjMi02ZDA3LTRmZWQtOThhNi1hNTVjN2NlMGY1NzkiDQp9"
+		}
+	}
+}
